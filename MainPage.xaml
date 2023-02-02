@@ -19,7 +19,17 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hit the menu at the top to view the different museums"
+                Text="Hit the menu at the top to view the different museums. Don't forget to take our interests quiz!"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Label
+                x:Name="personalizedGreeting"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="To fill out the quiz, hit the menu on the left."
                 SemanticProperties.HeadingLevel="Level2"
                 FontSize="18"
                 HorizontalOptions="Center" />

@@ -5,18 +5,22 @@
              Title="InterestsQuiz">
     <ScrollView>
         <VerticalStackLayout>
-        <Label 
+            <Label 
             Text="Welcome to the Quiz!"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            FontSize="Header"/>
-        <Label Text="1. What's your favorite color?" />
-        <RadioButton Content="Red"
+            FontSize="Header"></Label>
+            <Label Text="1. What's your favorite color?" />
+            <RadioButton Content="Red"
+             x:Name="radio1"
+             GroupName="colors"
+             CheckedChanged="checkChange"/>
+            <RadioButton Content="Green"
+             x:Name="radio2"
+                         CheckedChanged="checkChange"
              GroupName="colors" />
-        <RadioButton Content="Green"
-             GroupName="colors" />
-        <Button Clicked="submitQuiz" Text="Submit"></Button>
-        <Label x:Name="successLabel" TextColor="Green"
+            <Button Clicked="submitQuiz" Text="Submit"></Button>
+            <Label x:Name="successLabel"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontSize="Medium"/>
