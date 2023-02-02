@@ -10,7 +10,10 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-
+    <ShellContent
+        Title="Interests Quiz"
+        ContentTemplate="{DataTemplate local:InterestsQuiz}"
+        Route="InterestsQuiz" />
     <ShellContent
         Title="Museum1"
         ContentTemplate="{DataTemplate local:NewPage1}"
