@@ -15,7 +15,7 @@
 		<ApplicationTitle>museumApp</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.museumapp</ApplicationId>
+		<ApplicationId>com.companyname.museumAppBud</ApplicationId>
 		<ApplicationIdGuid>afccd1d2-dcb7-48f8-b651-e38d399282c7</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -28,6 +28,12 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)'=='net7.0-ios'">
+	  <ProvisioningType>manual</ProvisioningType>
+	  <CodesignKey>iPhone Developer</CodesignKey>
+	  <CodesignProvision />
 	</PropertyGroup>
 
 	<ItemGroup>

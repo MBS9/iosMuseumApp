@@ -6,4 +6,10 @@ public partial class NewPage1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void moreDetailsClicked(object sender, EventArgs e)
+    {
+		expandButton.IsVisible	= false;
+		details.IsVisible = true;
+    }
 }
