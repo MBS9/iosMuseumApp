@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>museumApp</ApplicationTitle>
+		<ApplicationTitle>Budapest Museums</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.museumAppBud</ApplicationId>
