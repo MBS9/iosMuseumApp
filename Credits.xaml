@@ -12,8 +12,8 @@
             HorizontalOptions="Center" />
         <Label 
             Text="This app was developed by team lead by Mark Barsi-Siminszky in Britannica High School, Budapest."
-            FontSize="Small"/>
-        <Label FontSize="Small">
+            FontSize="20"/>
+        <Label FontSize="20">
             Collaborators were:
                 - Add your names here
         </Label>
