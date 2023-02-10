@@ -18,5 +18,8 @@
         Title="Museum1"
         ContentTemplate="{DataTemplate local:NewPage1}"
         Route="NewPage1" />
-
+    <ShellContent
+        Title="Credits"
+        ContentTemplate="{DataTemplate local:Credits}"
+        Route="Credits" />
 </Shell>
