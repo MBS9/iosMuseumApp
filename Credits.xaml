@@ -15,6 +15,7 @@
             FontSize="20"/>
         <Label FontSize="20">
             Collaborators were:
+                - Gergely Maros
                 - Add your names here
         </Label>
     </VerticalStackLayout>
