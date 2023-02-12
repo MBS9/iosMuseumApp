@@ -6,35 +6,34 @@
     xmlns:local="clr-namespace:museumApp">
     <TabBar>
         <Tab Title="Visual Arts"
-            Icon="appiconfg.png">
+            Icon="museum.png">
             <ShellContent
                 Title="Visual Arts"
                 ContentTemplate="{DataTemplate local:VisualArts}"
                 Route="VisualArts" />
         </Tab>
         <Tab Title="Science"
-            Icon="appiconfg.png">
+            Icon="museum.png">
             <ShellContent
                 Title="Science"
                 ContentTemplate="{DataTemplate local:Science}"
                 Route="Science" />
         </Tab>
         <Tab Title="History"
-            Icon="appiconfg.png">
+            Icon="museum.png">
             <ShellContent
                 Title="History"
                 ContentTemplate="{DataTemplate local:History}"
                 Route="MainPage" />
         </Tab>
         <Tab Title="Other"
-            Icon="appiconfg.png">
+            Icon="museum.png">
             <ShellContent
                 Title="Other"
                 ContentTemplate="{DataTemplate local:Other}"
                 Route="Other" />
         </Tab>
-        <Tab Title="Credits"
-            Icon="appiconfg.png">
+        <Tab Title="Credits">
             <ShellContent
                 Title="Credits"
                 ContentTemplate="{DataTemplate local:Credits}"

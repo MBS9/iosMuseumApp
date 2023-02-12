@@ -18,5 +18,8 @@
                 - Gergely Maros
                 - Add your names here
         </Label>
+        <Label>
+            Additionally, some icons in the tab bar were designed by Freepik from Flaticon.
+        </Label>
     </VerticalStackLayout>
 </ContentPage>
