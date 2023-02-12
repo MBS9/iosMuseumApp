@@ -13,6 +13,6 @@
             Source="appiconfg.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
-        <Button x:Name="exampleMuseumBtn" Text="Example Museum" Clicked="exampleMuseumBtn_Clicked"/>
+        <Button x:Name="exampleMuseumBtn" Text="Example Visual Arts Museum" Clicked="exampleMuseumBtn_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
