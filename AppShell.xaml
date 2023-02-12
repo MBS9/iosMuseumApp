@@ -3,23 +3,42 @@
     x:Class="museumApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:museumApp"
-    Shell.FlyoutBehavior="Flyout">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    <ShellContent
-        Title="Interests Quiz"
-        ContentTemplate="{DataTemplate local:InterestsQuiz}"
-        Route="InterestsQuiz" />
-    <ShellContent
-        Title="Museum1"
-        ContentTemplate="{DataTemplate local:NewPage1}"
-        Route="NewPage1" />
-    <ShellContent
-        Title="Credits"
-        ContentTemplate="{DataTemplate local:Credits}"
-        Route="Credits" />
+    xmlns:local="clr-namespace:museumApp">
+    <TabBar>
+        <Tab Title="Visual Arts"
+            Icon="appiconfg.png">
+            <ShellContent
+                Title="Visual Arts"
+                ContentTemplate="{DataTemplate local:VisualArts}"
+                Route="VisualArts" />
+        </Tab>
+        <Tab Title="Science"
+            Icon="appiconfg.png">
+            <ShellContent
+                Title="Science"
+                ContentTemplate="{DataTemplate local:Science}"
+                Route="Science" />
+        </Tab>
+        <Tab Title="History"
+            Icon="appiconfg.png">
+            <ShellContent
+                Title="History"
+                ContentTemplate="{DataTemplate local:History}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Other"
+            Icon="appiconfg.png">
+            <ShellContent
+                Title="Other"
+                ContentTemplate="{DataTemplate local:Other}"
+                Route="Other" />
+        </Tab>
+        <Tab Title="Credits"
+            Icon="appiconfg.png">
+            <ShellContent
+                Title="Credits"
+                ContentTemplate="{DataTemplate local:Credits}"
+                Route="Credits" />
+        </Tab>
+    </TabBar>
 </Shell>
