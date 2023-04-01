@@ -8,6 +8,7 @@ public partial class VisualArts : ContentPage
 	}
 	private async void exampleMuseumBtn_Clicked(object sender, EventArgs e)
     {
+		Preferences.Set("page", "mng");
 		await Shell.Current.GoToAsync("exampleMuseum");
     }
 }

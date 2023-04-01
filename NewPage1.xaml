@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="museumApp.NewPage1"
-             Title="Museum1">
+             Title="Lorem Ipsum">
     <ScrollView>
         <VerticalStackLayout>
             <Label
-                Text="Museum1"
+                x:Name="h1"
+                Text="Lorem Ipsum"
                 FontSize="42"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
@@ -18,10 +19,11 @@
                 SemanticProperties.HeadingLevel="Level2"
                 FontSize="32"
                 Text="Introduction"/>
-            <Label 
+            <Label
+                x:Name="intro"
                 SemanticProperties.HeadingLevel="Level3"
                 FontSize="15"
-                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus mauris ultrices eros in cursus turpis massa. Sapien et ligula ullamcorper malesuada proin. Nibh venenatis cras sed felis. Nunc sed id semper risus in hendrerit gravida rutrum quisque. Malesuada nunc vel risus commodo viverra. Nulla facilisi etiam dignissim diam. Lacus sed viverra tellus in hac. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Vitae tortor condimentum lacinia quis vel. Blandit massa enim nec dui nunc mattis. Tellus in hac habitasse platea dictumst. Sit amet risus nullam eget felis. Aliquet bibendum enim facilisis gravida neque convallis a."
+                Text=""
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button
@@ -33,20 +35,22 @@
                     SemanticProperties.HeadingLevel="Level2"
                     FontSize="32"
                     Text="How to get there?"/>
-                <Label 
+                <Label
+                    x:Name="location"
                     SemanticProperties.HeadingLevel="Level3"
                     FontSize="15"
-                    Text="Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies. In nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quam pellentesque nec nam aliquam sem. Lacus vel facilisis volutpat est velit egestas. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. In cursus turpis massa tincidunt dui. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Mauris a diam maecenas sed enim ut sem. Eget arcu dictum varius duis. Quam pellentesque nec nam aliquam sem et. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Mollis nunc sed id semper risus in hendrerit gravida rutrum."
+                    Text=""
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" />
                 <Label
                     SemanticProperties.HeadingLevel="Level2"
                     FontSize="32"
                     Text="Review"/>
-                <Label 
+                <Label
+                    x:Name="review"
                     SemanticProperties.HeadingLevel="Level3"
                     FontSize="15"
-                    Text="In est ante in nibh mauris. Suspendisse sed nisi lacus sed. Sed felis eget velit aliquet sagittis id consectetur. Sed felis eget velit aliquet sagittis id consectetur purus. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Nulla facilisi nullam vehicula ipsum a arcu. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Etiam non quam lacus suspendisse faucibus interdum posuere. Sem fringilla ut morbi tincidunt augue. Blandit libero volutpat sed cras ornare arcu dui vivamus. Tortor at risus viverra adipiscing at in tellus integer feugiat. Cursus turpis massa tincidunt dui ut. Non nisi est sit amet facilisis magna. Viverra nibh cras pulvinar mattis nunc. Aliquam sem et tortor consequat id. Duis ut diam quam nulla porttitor massa id. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Enim eu turpis egestas pretium aenean pharetra magna ac. Porta nibh venenatis cras sed felis eget velit aliquet sagittis."
+                    Text=""
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" />
             </VerticalStackLayout>
