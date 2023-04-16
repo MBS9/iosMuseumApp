@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image
-            Source="appiconfg.png"
+            Source="visual_arts_logo.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="exampleMuseumBtn" Text="National Gallery" Clicked="exampleMuseumBtn_Clicked"/>

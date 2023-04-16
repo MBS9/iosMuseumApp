@@ -5,7 +5,7 @@ public partial class NewPage1 : ContentPage
 	public NewPage1()
 	{
 		InitializeComponent();
-        LoadAsset();
+        _ = LoadAsset();
 	}
 
     private void moreDetailsClicked(object sender, EventArgs e)
@@ -16,12 +16,13 @@ public partial class NewPage1 : ContentPage
 
     async Task LoadAsset()
     {
-        var page = Preferences.Get("page", "lorem");
+        var page = Preferences.Get("page", "museum");
         Preferences.Remove("page");
         using var stream = await FileSystem.OpenAppPackageFileAsync(page+".txt");
         using var reader = new StreamReader(stream);
 
         var contents = reader.ReadToEnd();
+        mainImage.Source = page + ".png";
 
         var splitList = contents.Split('\n');
         Title = splitList[0];

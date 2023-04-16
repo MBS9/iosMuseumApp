@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image
-            Source="appiconfg.png"
+            Source="history_logo.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="exampleMuseumBtn" Text="Example History Museum" Clicked="exampleMuseumBtn_Clicked"/>

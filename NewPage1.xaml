@@ -12,6 +12,7 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Image
+                x:Name="mainImage"
                 Source="appiconfg.png"
                 HeightRequest="100"
                 HorizontalOptions="Center" />

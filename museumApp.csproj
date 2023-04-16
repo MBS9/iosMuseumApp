@@ -51,6 +51,9 @@
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\appiconfg.svg" />
 		<MauiImage Update="Resources\Images\museum.svg" BaseSize="16,16" />
+		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="200,100" />
+		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="200,100" />
+		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="200,100" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -60,8 +63,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Raw\lorem.txt" />
 	  <None Remove="Resources\Raw\mng.txt" />
+	  <None Remove="Resources\Raw\museum.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -69,7 +72,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiAsset Update="Resources\Raw\lorem.txt">
+	  <MauiAsset Update="Resources\Raw\museum.txt">
 	    <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
 	  </MauiAsset>
 	</ItemGroup>
