@@ -75,6 +75,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="tests\**" />
+	  <Compile Remove="tests\**" />
+	  <EmbeddedResource Remove="tests\**" />
+	  <MauiCss Remove="tests\**" />
+	  <MauiXaml Remove="tests\**" />
+	  <None Remove="tests\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\history_logo_large.svg" />
 	  <None Remove="Resources\Images\museum_large.svg" />
 	  <None Remove="Resources\Images\science_logo_large.svg" />
