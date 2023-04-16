@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image
-            Source="museum.png"
+            Source="museum_large.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="exampleMuseumBtn" Text="Example Other Museum" Clicked="exampleMuseumBtn_Clicked"/>

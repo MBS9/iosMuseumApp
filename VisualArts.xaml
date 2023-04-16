@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image
-            Source="visual_arts_logo.png"
+            Source="visual_arts_logo_large.png"
             Height="100"
             HorizontalOptions="Center" />
         <Button x:Name="exampleMuseumBtn" Text="National Gallery" Clicked="exampleMuseumBtn_Clicked"/>
