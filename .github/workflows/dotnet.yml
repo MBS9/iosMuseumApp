@@ -10,8 +10,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,11 +22,14 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
     - name: Restore dependencies
-      run: dotnet restore
+      run: |
+        dotnet workload restore
+        dotnet restore
     - name: Build
       run: dotnet build museumApp.csproj -f net7.0-android
     - name: Test
       run: |
         cd tests
+        dotnet workload restore
         dotnet build
         dotnet test --verbosity normal
