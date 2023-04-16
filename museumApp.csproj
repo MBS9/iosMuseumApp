@@ -50,10 +50,10 @@
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\appiconfg.svg" />
-		<MauiImage Update="Resources\Images\museum.svg" BaseSize="16,16" />
-		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="200,100" />
-		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="200,100" />
-		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="200,100" />
+		<MauiImage Update="Resources\Images\museum.svg" BaseSize="30,30" />
+		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="30,30" />
+		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="30,30" />
+		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="30,30" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />

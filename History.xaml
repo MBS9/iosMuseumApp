@@ -11,7 +11,7 @@
             HorizontalOptions="Center" />
         <Image
             Source="history_logo.png"
-            HeightRequest="100"
+            Height="100"
             HorizontalOptions="Center" />
         <Button x:Name="exampleMuseumBtn" Text="Example History Museum" Clicked="exampleMuseumBtn_Clicked"/>
     </VerticalStackLayout>
