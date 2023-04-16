@@ -56,7 +56,7 @@
 		<MauiImage Update="Resources\Images\museum_large.svg">
 		  <BaseSize>300,150</BaseSize>
 		</MauiImage>
-		<MauiImage Update="Resources\Images\museum.svg" BaseSize="40,40" />
+		<MauiImage Update="Resources\Images\museum.svg" BaseSize="20,20" />
 		<MauiImage Update="Resources\Images\science_logo_large.svg">
 		  <BaseSize>300,150</BaseSize>
 		</MauiImage>
