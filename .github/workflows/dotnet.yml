@@ -23,14 +23,14 @@ jobs:
       uses: android-actions/setup-android@v2
     - name: Restore dependencies
       run: |
-        dotnet workload install maui
+        dotnet workload install maui-android
         dotnet workload restore
         dotnet restore
     - name: Build
-      run: dotnet build museumApp.csproj -f net7.0-android
+      run: dotnet build museumApp.csproj -f net7.0-android --no-restore
     - name: Test
       run: |
         cd tests
         dotnet workload restore
         dotnet build
-        dotnet test --verbosity normal
+        dotnet test --verbosity normal --no-restore

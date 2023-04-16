@@ -16,7 +16,7 @@ namespace tests
         {
             IApp app = ConfigureApp
                 .Android
-                .ApkFile("../../../../../bin/Debug/net7.0-android/com.companyname.museumAppBud-Signed.apk")
+                .ApkFile("../../../../bin/Debug/net7.0-android/com.companyname.museumAppBud-Signed.apk")
                 .StartApp();
             app.Tap(c => c.Text("National Gallery"));
             app.Tap(c => c.Text("Expand"));
