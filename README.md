@@ -9,7 +9,7 @@
 
 ## Publish
 
-Run the following to create a `.pia` on a Mac:
+Run the following to create a `.ipa` on a Mac:
 ```shell
 dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64
 ```
