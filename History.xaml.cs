@@ -2,12 +2,10 @@ namespace museumApp;
 
 public partial class History : ContentPage
 {
+    Shared shared = new Shared();
 	public History()
 	{
 		InitializeComponent();
+        exampleMuseumBtn.Clicked += shared.clickHandler;
 	}
-    private async void exampleMuseumBtn_Clicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("exampleMuseum");
-    }
 }

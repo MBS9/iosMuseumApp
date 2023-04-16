@@ -79,8 +79,8 @@
 	  <None Remove="Resources\Images\museum_large.svg" />
 	  <None Remove="Resources\Images\science_logo_large.svg" />
 	  <None Remove="Resources\Images\visual_arts_logo_large.svg" />
-	  <None Remove="Resources\Raw\mng.txt" />
-	  <None Remove="Resources\Raw\museum.txt" />
+	  <None Remove="Resources\Raw\example_museum.txt" />
+	  <None Remove="Resources\Raw\national_gallery.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -88,7 +88,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiAsset Update="Resources\Raw\museum.txt">
+	  <MauiAsset Update="Resources\Raw\example_museum.txt">
 	    <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
 	  </MauiAsset>
 	</ItemGroup>

@@ -11,8 +11,8 @@
             HorizontalOptions="Center" />
         <Image
             Source="visual_arts_logo_large.png"
-            Height="100"
+            HeightRequest="100"
             HorizontalOptions="Center" />
-        <Button x:Name="exampleMuseumBtn" Text="National Gallery" Clicked="exampleMuseumBtn_Clicked"/>
+        <Button x:Name="nationalGallery" Text="National Gallery"/>
     </VerticalStackLayout>
 </ContentPage>
