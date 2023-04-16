@@ -14,7 +14,7 @@ Run the following to create a `.ipa` on a Mac:
 dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64
 ```
 
-Optionally: `-p:CodesignKey="{fill this out}" -p:CodesignProvision="{fill this out}"`
+If publishing to the store: `-p:CodesignKey="{fill this out}" -p:CodesignProvision="{fill this out}"`
 
 Read more about this in the [documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-cli?view=net-maui-7.0).
 
