@@ -11,13 +11,12 @@ public partial class App : Application
     }
 	protected override void OnStart()
 	{
-        var test = Environment.GetEnvironmentVariable("MUSEUM_APP_TEST");
-        if (test != "test")
-        {
-            return;
-        }
+#if DEBUG
         Console.WriteLine("Running tests");
         Preferences.Set(shared.pageSymbol, "museum");
         Shell.Current.GoToAsync("exampleMuseum");
+        Shell.Current.GoToAsync("..");
+        base.OnStart();
+#endif
     }
 }

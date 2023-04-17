@@ -6,8 +6,18 @@ name: .NET
 on:
   push:
     branches: [ "master" ]
+    paths:
+       - *.cs
+       - *.xaml
+       - *.csproj
+       - *.sln
   pull_request:
     branches: [ "master" ]
+    paths:
+       - *.cs
+       - *.xaml
+       - *.csproj
+       - *.sln
 
 jobs:
   test:
@@ -25,7 +35,5 @@ jobs:
         dotnet workload restore
         dotnet restore
     - name: Run
-      env:
-         MUSEUM_APP_TEST: test
       run: |
-        dotnet build -t:Run -f net7.0-windows10.0.19041.0
+        dotnet build -t:Run -f net7.0-android -p:Configuration=Debug

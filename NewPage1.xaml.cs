@@ -17,7 +17,7 @@ public partial class NewPage1 : ContentPage
 
     async Task LoadAsset()
     {
-        var page = Preferences.Get(shared.pageSymbol, "museum");
+        var page = Preferences.Get(shared.pageSymbol, "example_museum");
         Preferences.Remove(shared.pageSymbol);
         using var stream = await FileSystem.OpenAppPackageFileAsync(page+".txt");
         using var reader = new StreamReader(stream);
