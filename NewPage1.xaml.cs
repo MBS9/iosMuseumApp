@@ -2,6 +2,7 @@ namespace museumApp;
 
 public partial class NewPage1 : ContentPage
 {
+    Shared shared = new();
 	public NewPage1()
 	{
 		InitializeComponent();
@@ -16,8 +17,8 @@ public partial class NewPage1 : ContentPage
 
     async Task LoadAsset()
     {
-        var page = Preferences.Get("page", "museum");
-        Preferences.Remove("page");
+        var page = Preferences.Get(shared.pageSymbol, "museum");
+        Preferences.Remove(shared.pageSymbol);
         using var stream = await FileSystem.OpenAppPackageFileAsync(page+".txt");
         using var reader = new StreamReader(stream);
 

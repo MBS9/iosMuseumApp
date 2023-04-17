@@ -6,5 +6,5 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
 		Routing.RegisterRoute("exampleMuseum", typeof(NewPage1));
-	}
+    }
 }
