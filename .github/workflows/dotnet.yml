@@ -24,8 +24,8 @@ jobs:
         dotnet workload install maui
         dotnet workload restore
         dotnet restore
-    - name: set env
-      run:  '[Environment]::SetEnvironmentVariable ("MUSEUM_APP_TEST","test","Machine")'
     - name: Run
+      env:
+         MUSEUM_APP_TEST: test
       run: |
         dotnet build -t:Run -f net7.0-windows10.0.19041.0
