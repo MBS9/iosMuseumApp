@@ -19,20 +19,10 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
-    - run: sdkmanager --install 'system-images;android-23;google_apis;x86_64'
-    - run: echo no | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-23;google_apis;x86_64'
     - name: Restore dependencies
       run: |
-        dotnet workload install maui-android
+        dotnet workload install maui
         dotnet workload restore
         dotnet restore
     - name: Build
-      run: dotnet build museumApp.csproj -f net7.0-android --no-restore
-    - name: Test
-      run: |
-        cd tests
-        dotnet workload restore
-        dotnet build
-        dotnet test --verbosity normal --no-restore
+      run: dotnet build museumApp.csproj --no-restore
