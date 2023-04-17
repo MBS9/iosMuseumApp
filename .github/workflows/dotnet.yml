@@ -30,9 +30,12 @@ jobs:
         dotnet restore
     - name: Build
       run: dotnet build museumApp.csproj -f net7.0-android --no-restore
+    - name: Start Emulator
+      run: |
+        cd $ANDROID_HOME
+        start /tools/emulator @testAVD
     - name: Test
       run: |
-        start emulator @testAVD
         cd tests
         dotnet workload restore
         dotnet build
