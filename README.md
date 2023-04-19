@@ -3,8 +3,10 @@
 ## Setup and run locally
 
 1. If running a Mac, please install [XCode](https://developer.apple.com/xcode/).
-2. Install [Visual Studio Community edition or Visual Studio for Mac](https://visualstudio.microsoft.com/). Make sure to install the `.NET MAUI` workload also.
-3. Open the `.sln` file with Visual Studio.
+2. Either:
+  a. Install [Visual Studio Community edition or Visual Studio for Mac](https://visualstudio.microsoft.com/). Make sure to install the `.NET MAUI` workload also.
+  b. Install [.Net](https://dotnet.microsoft.com/en-us/), and run the command `dotnet workload install maui`.
+3. Open the `.sln` file with Visual Studio or `cd` into the directory of your `.sln` if using .NET CLI.
 4. Select your target platform (iOS Simulator on MacOS, Android Simulator on Windows), and start the app.
 
 To test on a physical device from the terminal, see the [doumentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/cli?view=net-maui-7.0).
@@ -16,9 +18,9 @@ Run the following to create a `.ipa` on a Mac:
 dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64
 ```
 
-**Note:** to publish to the App Store, you need to purchase developer program from Apple.
-
 If publishing to the store: `-p:CodesignKey="{fill this out}" -p:CodesignProvision="{fill this out}"`
+
+**Note:** to publish to the App Store, you need to purchase developer program from Apple.
 
 Read more about this in the [documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-cli?view=net-maui-7.0).
 
