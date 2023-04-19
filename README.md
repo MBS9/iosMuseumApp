@@ -4,8 +4,8 @@
 
 1. If running a Mac, please install [XCode](https://developer.apple.com/xcode/).
 2. Either:
-  a. Install [Visual Studio Community edition or Visual Studio for Mac](https://visualstudio.microsoft.com/). Make sure to install the `.NET MAUI` workload also.
-  b. Install [.Net](https://dotnet.microsoft.com/en-us/), and run the command `dotnet workload install maui`.
+    a. Install [Visual Studio Community edition or Visual Studio for Mac](https://visualstudio.microsoft.com/). Make sure to install the `.NET MAUI` workload also.
+    b. Install [.Net](https://dotnet.microsoft.com/en-us/), and run the command `dotnet workload install maui`.
 3. Open the `.sln` file with Visual Studio or `cd` into the directory of your `.sln` if using .NET CLI.
 4. Select your target platform (iOS Simulator on MacOS, Android Simulator on Windows), and start the app.
 
