@@ -1,3 +1,5 @@
+using System.Linq;
+
 namespace museumApp;
 
 public partial class NewPage1 : ContentPage
@@ -25,11 +27,24 @@ public partial class NewPage1 : ContentPage
         var contents = reader.ReadToEnd();
         mainImage.Source = page + ".png";
 
-        var splitList = contents.Split('\n');
+        var splitList = contents.Split("---");
         Title = splitList[0];
         h1.Text = splitList[0];
-        intro.Text = splitList[1];
-        location.Text = splitList[2];
-        review.Text = splitList[3];
+        description.Text = splitList[1];
+        exhibitions.Text = splitList[2];
+        info.Text = splitList[3];
+        impressions.Text = splitList[4];
+        tips.Text = splitList[5];
+        top5.Text = splitList[6];
+        plus.Text = splitList[7];
+        string[] imagesLocation = splitList[8].Split('\n');
+        foreach (var image in imagesLocation)
+        {
+            var imagePath = image.Trim('\r');
+            if (imagePath != "")
+            {
+                images.Add(new Image { Source = imagePath, HeightRequest=100 });
+            }
+        }
     }
 }

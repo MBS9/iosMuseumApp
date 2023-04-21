@@ -1,4 +1,53 @@
-National Gallery
-Example
-Example
-Example
+﻿National Gallery
+---
+Description of the Museum
+Guidance (DELETE ONCE COMPLETE):
+What is the name of the museum and what can you see there? Where is it located? When was it
+opened? Why is it an important museum and why should someone visit it?
+Word Limit: 150-250 words
+---
+Description of The Exhibitions
+Guidance (DELETE ONCE COMPLETE):
+Briefly describe the museum’s permanent exhibition - what is it about and what does it contain? How
+is the exhibition organised? Is it by time / by artist or by a different theme? What are the main or
+most important pieces in the exhibition? Are there any temporary exhibitions? How long are they
+running for?
+Word Limit: 150-250 words
+---
+Key Information
+Guidance (DELETE ONCE COMPLETE): Keep the questions and add the information below:
+● What are the ticket prices?
+● Is parking available?
+● How can you get there using public transport?
+● Is there a gift shop?
+● Is there a café?
+● Is there a guided tour? In which languages?
+● Is there an audio guide? In which languages?
+● Is a map or brochure available? In which languages?
+● Are pictures allowed?
+● Is it accessible for people with disabilities?
+---
+Personal Impressions
+Guidance (DELETE ONCE COMPLETE):
+What did you like about the museum? Why might other young people find it interesting? Each
+member of the group should write a sentence/short paragraph. Use the following format:
+“[Your impressions]….” (your initials)
+Word Limit: about 50 words per person
+---
+Tips and Suggestions for Future Visitors
+Guidance (DELETE ONCE COMPLETE):
+Are there any tips or suggestions you would like to make for future visitors? Eg., booking tickets in
+advance for a popular museum? Bringing coins to use the cloakroom? etc.
+Word Limit: 100-200 words
+---
+Top 5 Things to Check Out
+Guidance (DELETE ONCE COMPLETE):
+As a group, agree on your top 5 things from the museum and add them here.
+Feel free to create your own top 5 lists (e.g. Top 5 Selfie Places…).
+---
+Plus
+Guidance (DELETE ONCE COMPLETE):
+Anything else you might want to add. Be creative.
+---
+national_gallery.png
+museum_large.png
