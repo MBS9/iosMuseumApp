@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace museumApp;
 
 public partial class NewPage1 : ContentPage
