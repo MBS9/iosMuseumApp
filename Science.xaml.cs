@@ -2,7 +2,7 @@ namespace museumApp;
 
 public partial class Science : ContentPage
 {
-	Shared shared = new();
+	readonly Shared shared = new();
 	public Science()
 	{
 		InitializeComponent();

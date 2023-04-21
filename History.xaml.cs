@@ -2,8 +2,8 @@ namespace museumApp;
 
 public partial class History : ContentPage
 {
-    Shared shared = new Shared();
-	public History()
+    readonly Shared shared = new();
+    public History()
 	{
 		InitializeComponent();
         exampleMuseumBtn.Clicked += shared.clickHandler;

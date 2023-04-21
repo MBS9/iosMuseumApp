@@ -2,7 +2,7 @@ namespace museumApp;
 
 public partial class VisualArts : ContentPage
 {
-    Shared shared = new Shared();
+    readonly Shared shared = new();
     public VisualArts()
 	{
 		InitializeComponent();

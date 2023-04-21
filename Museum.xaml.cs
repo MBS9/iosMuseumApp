@@ -1,9 +1,9 @@
 namespace museumApp;
 
-public partial class NewPage1 : ContentPage
+public partial class Museum : ContentPage
 {
-    Shared shared = new();
-	public NewPage1()
+    readonly Shared shared = new();
+	public Museum()
 	{
 		InitializeComponent();
         _ = LoadAsset();
