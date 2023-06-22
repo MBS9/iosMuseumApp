@@ -30,7 +30,10 @@ public partial class Museum : ContentPage
             } else if (content.StartsWith('!'))
             {
                 element = new HorizontalStackLayout();
-                (element as HorizontalStackLayout).Add(new Image {Source=content.TrimStart('!') });
+                string[] imageStrings = content.TrimStart('!').Split(':');
+                Image image = new() { Source = imageStrings[0] };
+                SemanticProperties.SetDescription(image, imageStrings[1]);
+                (element as HorizontalStackLayout).Add(image);
             } else 
             {
                 element = new Label { Text = content };

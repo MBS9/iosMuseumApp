@@ -56,6 +56,6 @@ Feel free to create your own top 5 lists (e.g. Top 5 Selfie Places…).
 Guidance (DELETE ONCE COMPLETE):
 Anything else you might want to add. Be creative.
 
-!national_gallery.png
+!national_gallery.png:Gallery Logo
 
-!museum_large.png
+!museum_large.png:Museum Image

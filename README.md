@@ -54,5 +54,5 @@ Contnet only visible when user clicks "Expand"
 
 Contnet2 only visible when user clicks "Expand"
 
-!image.png
+!image.png:Alt text
 ```
