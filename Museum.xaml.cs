@@ -29,11 +29,14 @@ public partial class Museum : ContentPage
                 SemanticProperties.SetHeadingLevel(element, SemanticHeadingLevel.Level2);
             } else if (content.StartsWith('!'))
             {
-                element = new HorizontalStackLayout();
+                element = new VerticalStackLayout();
+                var child = new HorizontalStackLayout();
                 string[] imageStrings = content.TrimStart('!').Split(':');
                 Image image = new() { Source = imageStrings[0] };
                 SemanticProperties.SetDescription(image, imageStrings[1]);
-                (element as HorizontalStackLayout).Add(image);
+                child.Add(image);
+                (element as VerticalStackLayout).Add(child);
+                (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1]});
             } else 
             {
                 element = new Label { Text = content };
