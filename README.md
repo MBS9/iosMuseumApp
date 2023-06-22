@@ -30,7 +30,8 @@ To create a `CodesignKey` and a `CodesignProvision` [read this documentation](ht
 
 1. Create the appropriate button, on the appropriate page, and create the appropriate TXT file named after the text on the button.
    a. [Here is the code](https://github.com/MBS9/iosMuseumApp/blob/master/shared.cs#L13) by which the TXT file will be selected.
-2. Inside the TXT file, please add the content using a markdown inspired markup language as follows:
+2. Add a main image, name it the same as you did the TXT, just of course the file extension should be `.png`.
+3. Inside the TXT file, please add the content using a markdown inspired markup language as follows:
 
 ```md
 Museum Name
