@@ -51,19 +51,19 @@
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\appiconfg.svg" />
 		<MauiImage Update="Resources\Images\history_logo_large.svg">
-		  <BaseSize>300,150</BaseSize>
+		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
 		<MauiImage Update="Resources\Images\museum_large.svg">
-		  <BaseSize>300,150</BaseSize>
+		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
 		<MauiImage Update="Resources\Images\museum.svg" BaseSize="20,20" />
 		<MauiImage Update="Resources\Images\science_logo_large.svg">
-		  <BaseSize>300,150</BaseSize>
+		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
 		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="40,40" />
 		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="40,40" />
 		<MauiImage Update="Resources\Images\visual_arts_logo_large.svg">
-		  <BaseSize>300,150</BaseSize>
+		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
 		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="40,40" />
 
@@ -80,6 +80,7 @@
 	  <None Remove="Resources\Images\science_logo_large.svg" />
 	  <None Remove="Resources\Images\visual_arts_logo_large.svg" />
 	  <None Remove="Resources\Raw\example_museum.txt" />
+	  <None Remove="resources\raw\holocaust_memorial_centre.txt" />
 	  <None Remove="Resources\Raw\national_gallery.txt" />
 	</ItemGroup>
 
