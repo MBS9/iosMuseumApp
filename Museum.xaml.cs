@@ -51,11 +51,10 @@ public partial class Museum : ContentPage
 
         var contents = reader.ReadToEnd();
         mainImage.Source = page + ".png";
-
         var splitList = contents.Split("---");
         h1.Text = splitList[0];
+        Title = splitList[0];
         outputFromMd(splitList[1], main);
-
         outputFromMd(splitList[2], details);
     }
 }
