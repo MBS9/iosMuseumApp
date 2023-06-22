@@ -11,12 +11,15 @@
             SemanticProperties.HeadingLevel="Level2"
             HorizontalOptions="Center" />
         <Label 
-            Text="This app was developed by team lead by Mark Barsi-Siminszky in Britannica High School, Budapest."
+            Text="This app was developed by team lead by Mark Barsi-Siminszky in Britannica International School, Budapest."
             FontSize="20"/>
         <Label FontSize="20">
-            Collaborators were:
+            Software Development collaborators were:
                 - Gergely Maros
                 - Add your names here
+        </Label>
+        <Label FontSize="20">
+            The content was a collaborative effort between the secondary students of Birtannica and the museums of Budapest.
         </Label>
     </VerticalStackLayout>
 </ContentPage>
