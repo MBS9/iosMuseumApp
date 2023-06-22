@@ -1,3 +1,5 @@
+using Microsoft.Maui.Controls;
+
 namespace museumApp;
 
 public partial class Museum : ContentPage
@@ -15,6 +17,28 @@ public partial class Museum : ContentPage
 		details.IsVisible = true;
     }
 
+    private void outputFromMd(string md, VerticalStackLayout viewParent)
+    {
+        foreach (var paragraph in md.Split("\n\n")) {
+            Element element;
+            var content = paragraph.Trim();
+            content = content.Trim('\n');
+            if (content.StartsWith('#'))
+            {
+                element = new Label { Text = content.Trim('#'), FontSize=32 };
+                SemanticProperties.SetHeadingLevel(element, SemanticHeadingLevel.Level2);
+            } else if (content.StartsWith('!'))
+            {
+                element = new HorizontalStackLayout();
+                (element as HorizontalStackLayout).Add(new Image {Source=content.TrimStart('!') });
+            } else 
+            {
+                element = new Label { Text = content };
+            }
+            viewParent.Add((IView)element);
+        }
+    }
+
     async Task LoadAsset()
     {
         var page = Preferences.Get(shared.pageSymbol, "example_museum");
@@ -26,23 +50,9 @@ public partial class Museum : ContentPage
         mainImage.Source = page + ".png";
 
         var splitList = contents.Split("---");
-        Title = splitList[0];
         h1.Text = splitList[0];
-        description.Text = splitList[1];
-        exhibitions.Text = splitList[2];
-        info.Text = splitList[3];
-        impressions.Text = splitList[4];
-        tips.Text = splitList[5];
-        top5.Text = splitList[6];
-        plus.Text = splitList[7];
-        string[] imagesLocation = splitList[8].Split('\n');
-        foreach (var image in imagesLocation)
-        {
-            var imagePath = image.Trim('\r');
-            if (imagePath != "")
-            {
-                images.Add(new Image { Source = imagePath, HeightRequest=100 });
-            }
-        }
+        outputFromMd(splitList[1], main);
+
+        outputFromMd(splitList[2], details);
     }
 }

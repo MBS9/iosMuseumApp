@@ -16,95 +16,13 @@
                 Source="appiconfg.png"
                 HeightRequest="100"
                 HorizontalOptions="Center" />
-            <Label
-                SemanticProperties.HeadingLevel="Level2"
-                FontSize="32"
-                Text="Description of the Museum"/>
-            <Label
-                x:Name="description"
-                SemanticProperties.HeadingLevel="Level3"
-                FontSize="15"
-                Text=""
-                VerticalOptions="Center" 
-                HorizontalOptions="StartAndExpand" />
+            <VerticalStackLayout x:Name="main">
+            </VerticalStackLayout>
             <Button
                 Text="Expand"
                 x:Name="expandButton"
                 Clicked="moreDetailsClicked"/>
             <VerticalStackLayout x:Name="details" IsVisible="false">
-               <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Description of The Exhibitions"/>
-                <Label
-                    x:Name="exhibitions"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Key Information"/>
-                <Label
-                    x:Name="info"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Personal Impressions"/>
-                <Label
-                    x:Name="impressions"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Tips and Suggestions for Future Visitors"/>
-                <Label
-                    x:Name="tips"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Pictures"/>
-                <HorizontalStackLayout x:Name="images">
-
-                </HorizontalStackLayout>
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Top 5 Things to Check Out"/>
-                <Label
-                    x:Name="top5"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
-                <Label
-                    SemanticProperties.HeadingLevel="Level2"
-                    FontSize="32"
-                    Text="Plus"/>
-                <Label
-                    x:Name="plus"
-                    SemanticProperties.HeadingLevel="Level3"
-                    FontSize="15"
-                    Text=""
-                    VerticalOptions="Center" 
-                    HorizontalOptions="StartAndExpand" />
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
