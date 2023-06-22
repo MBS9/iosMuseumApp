@@ -25,3 +25,33 @@ If publishing to the store: `-p:CodesignKey="{fill this out}" -p:CodesignProvisi
 Read more about this in the [documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-cli?view=net-maui-7.0).
 
 To create a `CodesignKey` and a `CodesignProvision` [read this documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-app-store?view=net-maui-7.0&tabs=vs). You can also use that guide to publish to the App Store.
+
+## Add new museum
+
+1. Create the appropriate button, on the appropriate page, and create the appropriate TXT file named after the text on the button.
+   a. [Here is the code](https://github.com/MBS9/iosMuseumApp/blob/master/shared.cs#L13) by which the TXT file will be selected.
+2. Inside the TXT file, please add the content using a markdown inspired markup language as follows:
+
+```md
+Museum Name
+---
+
+# Heading
+
+Content
+
+# Heading 2
+
+Content 2
+
+---
+# Heading only visible when user clicks "Expand"
+
+Contnet only visible when user clicks "Expand"
+
+# Heading2 only visible when user clicks "Expand"
+
+Contnet2 only visible when user clicks "Expand"
+
+!image.png
+```
