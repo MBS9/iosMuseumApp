@@ -4,7 +4,7 @@ namespace museumApp;
 
 public partial class Museum : ContentPage
 {
-    private const int defaultFontSize = 18;
+    private const int DEFAULT_FONT_SIZE = 18;
     readonly Shared shared = new();
 	public Museum()
 	{
@@ -44,10 +44,10 @@ public partial class Museum : ContentPage
                 SemanticProperties.SetDescription(image, imageStrings[1]);
                 child.Add(image);
                 (element as VerticalStackLayout).Add(child);
-                (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1], FontSize= defaultFontSize });
+                (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1], FontSize= DEFAULT_FONT_SIZE });
             } else 
             {
-                element = new Label { Text = content, FontSize=defaultFontSize };
+                element = new Label { Text = content, FontSize=DEFAULT_FONT_SIZE };
             }
             viewParent.Add((IView)element);
         }
