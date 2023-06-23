@@ -4,6 +4,7 @@ namespace museumApp;
 
 public partial class Museum : ContentPage
 {
+    private const int DEFAULT_FONT_SIZE = 18;
     readonly Shared shared = new();
 	public Museum()
 	{
@@ -25,8 +26,15 @@ public partial class Museum : ContentPage
             content = content.Trim('\n');
             if (content.StartsWith('#'))
             {
-                element = new Label { Text = content.Trim('#'), FontSize=32 };
-                SemanticProperties.SetHeadingLevel(element, SemanticHeadingLevel.Level2);
+                var fontSize = 30;
+                var heading =SemanticHeadingLevel.Level2;
+                if (content.StartsWith("##"))
+                {
+                    fontSize = 25;
+                    heading = SemanticHeadingLevel.Level3;
+                }
+                element = new Label { Text = content.Trim('#'), FontSize=fontSize };
+                SemanticProperties.SetHeadingLevel(element, heading);
             } else if (content.StartsWith('!'))
             {
                 element = new VerticalStackLayout();
@@ -36,10 +44,10 @@ public partial class Museum : ContentPage
                 SemanticProperties.SetDescription(image, imageStrings[1]);
                 child.Add(image);
                 (element as VerticalStackLayout).Add(child);
-                (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1]});
+                (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1], FontSize= DEFAULT_FONT_SIZE });
             } else 
             {
-                element = new Label { Text = content };
+                element = new Label { Text = content, FontSize=DEFAULT_FONT_SIZE };
             }
             viewParent.Add((IView)element);
         }
