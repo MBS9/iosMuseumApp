@@ -7,5 +7,6 @@ public partial class VisualArts : ContentPage
 	{
 		InitializeComponent();
         nationalGallery.Clicked += shared.clickHandler;
+        TheLudwigMuseum.Clicked += shared.clickHandler;
     }
 }

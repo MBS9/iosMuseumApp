@@ -14,5 +14,6 @@
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="nationalGallery" Text="National Gallery"/>
+        <Button x:Name="TheLudwigMuseum" Text="Ludwig Museum"/>
     </VerticalStackLayout>
 </ContentPage>
