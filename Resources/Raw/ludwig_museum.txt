@@ -14,6 +14,7 @@ Another exhibition found in the Ludwig Museum is the “Time Machine”. It was 
 #Key Information
 
 ##What are the ticket prices?
+
 - Combined ticket valid for all current exhibitions 
 - Full price: HUF 2 400 per person  
 - Group discount ticket for groups of more than 10 people: HUF 2 100 per person 
@@ -79,15 +80,15 @@ The museum was not very crowded in the morning, right after opening. However, la
 
 #Images
 
-!the_ludwig_museum_1.png:None
+!the_ludwig_museum_1.png:An image of a sculpture from the museum.
 
-!the_ludwig_museum_2.png:None
+!the_ludwig_museum_2.png:An image of an artwork from the museum.
 
-!the_ludwig_museum_3.png:None
+!the_ludwig_museum_3.png:An image of an artwork from the museum, containing hands in different perspectives.
 
-!the_ludwig_museum_4.png:None
+!the_ludwig_museum_4.png:An image viewable in the museum, on which a man is falling backwards.
 
-!the_ludwig_museum_5.png:None
+!the_ludwig_museum_5.png:A painting of a women, with speech bubble.
 
 
 #Top 5 Things to Check Out
