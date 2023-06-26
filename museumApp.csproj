@@ -82,6 +82,7 @@
 	  <None Remove="Resources\Raw\example_museum.txt" />
 	  <None Remove="resources\raw\holocaust_memorial_centre.txt" />
 	  <None Remove="resources\raw\money_museum.txt" />
+	  <None Remove="Resources\Raw\petofi_literary_museum.txt" />
 	</ItemGroup>
 
 	<ItemGroup>

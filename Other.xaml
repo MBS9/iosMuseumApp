@@ -14,5 +14,6 @@
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="moneyMuseum" Text="Money Museum"/>
+        <Button x:Name="literaryMuseum" Text="Petofi Literary Museum"/>
     </VerticalStackLayout>
 </ContentPage>
