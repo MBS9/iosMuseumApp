@@ -13,6 +13,6 @@
             Source="museum_large.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
-        <Button x:Name="exampleMuseumBtn" Text="Example Museum"/>
+        <Button x:Name="moneyMuseum" Text="Money Museum"/>
     </VerticalStackLayout>
 </ContentPage>

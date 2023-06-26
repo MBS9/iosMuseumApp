@@ -81,7 +81,7 @@
 	  <None Remove="Resources\Images\visual_arts_logo_large.svg" />
 	  <None Remove="Resources\Raw\example_museum.txt" />
 	  <None Remove="resources\raw\holocaust_memorial_centre.txt" />
-	  <None Remove="Resources\Raw\national_gallery.txt" />
+	  <None Remove="resources\raw\money_museum.txt" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -6,6 +6,6 @@ public partial class Other : ContentPage
     public Other()
 	{
 		InitializeComponent();
-		exampleMuseumBtn.Clicked += shared.clickHandler;
+		moneyMuseum.Clicked += shared.clickHandler;
 	}
 }
