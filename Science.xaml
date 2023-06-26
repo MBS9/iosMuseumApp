@@ -13,6 +13,6 @@
             Source="science_logo_large.png"
             HeightRequest="100"
             HorizontalOptions="Center" />
-        <Button x:Name="exampleMuseumBtn" Text="Example Museum"/>
+        <Button x:Name="techStudyStore" Text="Technical Study Stores"/>
     </VerticalStackLayout>
 </ContentPage>

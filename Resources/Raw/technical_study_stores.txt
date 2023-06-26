@@ -1,0 +1,103 @@
+﻿Technical Study Stores
+---
+The museum is called Technical Study Stores, it is part of the Hungarian Museum of Science Technology and Transport, and you can see all sorts of devices and appliances from the 1800s-1900s such as the first computers and TVs made in Hungary.
+---
+
+#Description of The Exhibitions 
+
+The museum is mostly about machines and technical appliances containing more than 18000 items in total. The exhibition of the museum is organized like a storage unit, but they all usually have a short description attached to them so you know what they are and when they were built/used. Items are placed in sections, each section showing a certain type of machine or appliance, for example, telescopes or typewriters. The item that comes closest to being called the main piece in the exhibition is a 1950s Soviet computer (it certainly is one of the largest ones), but in general the museum does not have main items, each has their own uniqueness and feel. There are few temporary exhibitions (e.g. on the history of data storage), everything is there to stay and to be shown.
+
+# Key Information
+
+##What are the ticket prices?
+
+Students/Seniors- 400Ft per person
+Adults – 800Ft per person
+Group (at least 10 people) - 500Ft per person
+Student group (at least 10 people) - 250Ft per person
+Guided tour – 3500Ft per group (5500Ft if more than 20 people)
+
+##Is parking available?
+
+No specific parking but there are spaces in the surrounding streets (pay parking)
+
+## How can you get there using public transport?
+
+Tram 1(or tram 17, 41, 47 from Újbuda központ, bus 33, 133E from the city)
+
+## Is there a gift shop?
+
+Yes
+
+## Is there a cafe?
+
+Not inside but there are some around the location
+
+## Is there a guided tour? 
+
+In which languages? Yes, you can ask for a tour but it is only in Hungarian.
+
+## Is there an audio guide? In which languages?
+
+No
+
+## Is a map or brochure available? In which languages?
+
+Yes, there are thematic brochures but only in Hungarian.
+
+## Are pictures allowed?
+
+Yes
+
+## Is it accessible for people with disabilities?
+
+Yes, there is only 1 set of stairs and has an elevator next to it
+
+#Personal Impressions
+
+"I enjoyed seeing the very first models of everyday things we use such as computers, TV’s and phones"-AM
+"I enjoyed the old collection of radios and computers most but I also appreciated small things such as calculators" HT
+"I personally really enjoyed it and found it very interesting! I can recommend it to anyone who has at least the slightest interest in any of the STEM fields or even to people who enjoy history and the culture of technology." - NN
+"I was shocked to discover there were so many items in the museum. Amongst those items, I liked the telescope section most, they were really intricate and well preserved and really showed what people could make back in the 19th to 20th century." - RL
+"I enjoyed the different ranges of collections such as the artificial eye collections and typewriters made from 19th century. I liked how there were different cool colors put into the artificial eyes.
+
+There are around 18000 objects in the Technology Museum
+It is known as a museum, but it is a storage place that has been opened to the public.
+
+There is an object which visualizes the movement of inner planets.
+
+There is a unique clock made for the World exhibition in Turin in 1911, which can tell the time in 64 cities (these were cities that were considered most important then) made in 1911. The globe on top of the clock makes a full rotation when 1 day is passed (Like in the real world).
+
+an American company producing weapons for the Civil War created a device which can write letters on a piece of paper. It was made in the 1870s, after less weapons were needed. It was the first typewriter with economic success. It only had capital letters. You could not see the typing errors until the paper was pulled out.
+
+The first Hungarian digital computer was made in 1957. It was called MESZ-1 and the purpose of it was for the education of humans. The input for MESZ-1 was in decimal system, the processing was in binary, and the output was in decimal.
+
+The first Hungarian televisions had a plexi protection shield on them in case it exploded. (SY and HT)
+
+#Tips and Suggestions for Future Visitors 
+
+Keep a coat on as it is cold in the exhibition during winter and during summer it is usually warm. Drinks and food are prohibited in the museum so it is best to finish it before entering. You are allowed to take pictures but are not allowed to touch any of the objects unless they say so.
+
+#Top 7 Things to Check Out
+
+1. Robot Ladybug AI -AK
+2.The old TV collection. -AM
+3. Typewriter evolution - SY
+4. Collection of computers-HT
+5.The Clock which shows humidity and local time of 64 cities around the world. -AM
+6. First digital computer made in Hungary – NN
+7. Nicola Tesla’s pocket voltmeter - RL
+
++1 Make sure to check out the banana case by an Italian designer. It is very cool and unique.
+
+# Pictures
+
+!tech_study_store_1.png: An old analogue instrument measuring something.
+
+!tech_study_store_2.png: Example of an old technology presented in the museum.
+
+!tech_study_store_3.png: Further technology which looks like colourfull gas containers.
+
+!tech_study_store_4.png: Old mechanical devices.
+
+!tech_study_store_5.png: An image of a room with many old machinery presented and explained.

@@ -6,6 +6,6 @@ public partial class Science : ContentPage
 	public Science()
 	{
 		InitializeComponent();
-		exampleMuseumBtn.Clicked += shared.clickHandler;
+		techStudyStore.Clicked += shared.clickHandler;
 	}
 }
