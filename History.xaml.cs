@@ -7,5 +7,6 @@ public partial class History : ContentPage
 	{
 		InitializeComponent();
         holocaustMemorial.Clicked += shared.clickHandler;
-	}
+        NationalMuseum.Clicked += shared.clickHandler;
+    }
 }
