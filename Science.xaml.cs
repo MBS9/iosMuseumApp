@@ -7,7 +7,7 @@ public partial class Science : ContentPage
 	{
 		InitializeComponent();
 		techStudyStore.Clicked += shared.clickHandler;
-		IllusionsMuseum.Clicked += shared.clickHandler;
-        SemmelweisMuseum.Clicked += shared.clickHandler;
+		illusionsMuseum.Clicked += shared.clickHandler;
+        medicalMuseum.Clicked += shared.clickHandler;
     }
 }

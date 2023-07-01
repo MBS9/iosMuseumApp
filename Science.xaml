@@ -14,7 +14,7 @@
             HeightRequest="100"
             HorizontalOptions="Center" />
         <Button x:Name="techStudyStore" Text="Technical Study Stores"/>
-        <Button x:Name="IllusionsMuseum" Text="Illusions Museum"/>
-        <Button x:Name="SemmelweisMuseum" Text="Semmelweis Museum"/>
+        <Button x:Name="illusionsMuseum" Text="Illusions Museum"/>
+        <Button x:Name="medicalMuseum" Text="Medical Museum"/>
     </VerticalStackLayout>
 </ContentPage>

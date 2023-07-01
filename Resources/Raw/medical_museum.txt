@@ -1,4 +1,4 @@
-Literary Museum
+Semmelweis Medical Museum
 ---
 
 #Description of the Museum
@@ -99,5 +99,8 @@ Reshvanth: This museum is absolutely fantastic! Everything here in this museum i
 
 
 !medical_museum_1.png: A picture of inner view.
-!medical_museum_2.png: A picture of a dental equipment. 
-!medical_museum_3.png: A picture of an similar equipment.  
+
+!medical_museum_2.png: A picture of a dental equipment.
+
+!medical_museum_3.png: A picture of an similar equipment.
+
