@@ -15,5 +15,6 @@
             HorizontalOptions="Center" />
         <Button x:Name="techStudyStore" Text="Technical Study Stores"/>
         <Button x:Name="IllusionsMuseum" Text="Illusions Museum"/>
+        <Button x:Name="SemmelweisMuseum" Text="Semmelweis Museum"/>
     </VerticalStackLayout>
 </ContentPage>
