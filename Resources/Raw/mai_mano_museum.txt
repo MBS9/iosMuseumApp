@@ -66,5 +66,7 @@ My impression is that it is a great place to pick up a book to learn more about 
 # Images
 
 !mai_mano_museum_1.png: An excellent picture taken from someone.
+
 !mai_mano_museum_2.png: Another excellent picture taken using reflection.
+
 !mai_mano_museum_3.png: Another great picture. 
