@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="museumApp.Medical"
+             Title="Semmelweis Museums">
+    <VerticalStackLayout>
+        <Label 
+            Text="HSemmelweis Museum"
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image
+            Source="medical_museum.png"
+            HeightRequest="100"
+            HorizontalOptions="Center" />
+        <Button x:Name="SemmelweisMuseum" Text="Semmelweis Museum"/>
+    </VerticalStackLayout>
+</ContentPage>
