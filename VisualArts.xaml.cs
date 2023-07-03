@@ -9,5 +9,6 @@ public partial class VisualArts : ContentPage
         TheLudwigMuseum.Clicked += shared.clickHandler;
         MaiManoMuseum.Clicked += shared.clickHandler;
         mucsarnokMuseum.Clicked += shared.clickHandler;
+        museumFineArts.Clicked += shared.clickHandler;
     }
 }

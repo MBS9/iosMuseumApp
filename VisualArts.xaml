@@ -18,5 +18,6 @@
         <Button x:Name="TheLudwigMuseum" Text="Ludwig Museum"/>
         <Button x:Name="MaiManoMuseum" Text="Mai Mano Museum"/>
         <Button x:Name="mucsarnokMuseum" Text="Mucsarnok Museum"/>
+        <Button x:Name="museumFineArts" Text="Museum of Fine Arts"/>
     </VerticalStackLayout>
 </ContentPage>
