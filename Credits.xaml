@@ -8,7 +8,7 @@
             Text="Credits"
             VerticalOptions="Center" 
             FontSize="Title"
-            SemanticProperties.HeadingLevel="Level2"
+            SemanticProperties.HeadingLevel="Level1"
             HorizontalOptions="Center" />
         <Label FontSize="20">
             The content was a collaborative effort between the secondary students of Birtannica and the museums of Budapest.

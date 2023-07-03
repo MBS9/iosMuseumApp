@@ -8,11 +8,13 @@
             Text="History Museums"
             FontSize="Title"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"/>
         <Image
             Source="history_logo_large.png"
             HeightRequest="100"
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.Description="History Museums Logo"/>
         <Button x:Name="holocaustMemorial" Text="Holocaust Memorial Centre"/>
         <Button x:Name="NationalMuseum" Text="National Museum"/>
     </VerticalStackLayout>

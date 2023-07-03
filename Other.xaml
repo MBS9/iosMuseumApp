@@ -8,11 +8,13 @@
             Text="Other Museums"
             FontSize="Title"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"/>
         <Image
             Source="museum_large.png"
             HeightRequest="100"
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.Description="Other Museums Logo"/>
         <Button x:Name="moneyMuseum" Text="Money Museum"/>
         <Button x:Name="literaryMuseum" Text="Petofi Literary Museum"/>
     </VerticalStackLayout>

@@ -8,11 +8,13 @@
             Text="Science Museums"
             FontSize="Title"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"/>
         <Image
             Source="science_logo_large.png"
             HeightRequest="100"
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.Description="Science Museums Logo"/>
         <Button x:Name="techStudyStore" Text="Technical Study Stores"/>
         <Button x:Name="illusionsMuseum" Text="Illusions Museum"/>
         <Button x:Name="medicalMuseum" Text="Medical Museum"/>

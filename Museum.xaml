@@ -10,12 +10,14 @@
                 Text=""
                 FontSize="42"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                SemanticProperties.HeadingLevel="Level1"/>
             <Image
                 x:Name="mainImage"
                 Source="museum_large.png"
                 HeightRequest="100"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                SemanticProperties.Description="Museum logo"/>
             <VerticalStackLayout x:Name="main">
             </VerticalStackLayout>
             <Button

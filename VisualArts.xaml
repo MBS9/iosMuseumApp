@@ -8,12 +8,15 @@
             Text="Visual Arts Museums"
             FontSize="Title"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.HeadingLevel="Level1"/>
         <Image
             Source="visual_arts_logo_large.png"
             HeightRequest="100"
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            SemanticProperties.Description="Visual Arts Museums Logo"/>
         <Button x:Name="TheLudwigMuseum" Text="Ludwig Museum"/>
         <Button x:Name="MaiManoMuseum" Text="Mai Mano Museum"/>
+        <Button x:Name="mucsarnokMuseum" Text="Mucsarnok Museum"/>
     </VerticalStackLayout>
 </ContentPage>
