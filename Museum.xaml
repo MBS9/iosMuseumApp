@@ -7,13 +7,13 @@
         <VerticalStackLayout>
             <Label
                 x:Name="h1"
-                Text="Lorem Ipsum"
+                Text=""
                 FontSize="42"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Image
                 x:Name="mainImage"
-                Source="appiconfg.png"
+                Source="museum_large.png"
                 HeightRequest="100"
                 HorizontalOptions="Center" />
             <VerticalStackLayout x:Name="main">
