@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:museumApp"
              x:Class="museumApp.Museum"
              Title="Lorem Ipsum">
+    <ContentPage.Triggers>
+        <EventTrigger Event="Loaded">
+            <local:announceScrollable />
+        </EventTrigger>
+    </ContentPage.Triggers>
     <ScrollView>
         <VerticalStackLayout>
             <Label
@@ -17,7 +23,8 @@
                 Source="museum_large.png"
                 HeightRequest="100"
                 HorizontalOptions="Center"
-                SemanticProperties.Description="Museum logo"/>
+                SemanticProperties.Description="Museum logo">
+            </Image>
             <VerticalStackLayout x:Name="main">
             </VerticalStackLayout>
             <Button

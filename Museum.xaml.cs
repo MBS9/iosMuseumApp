@@ -68,6 +68,5 @@ public partial class Museum : ContentPage
         Title = splitList[0];
         outputFromMd(splitList[1], main);
         outputFromMd(splitList[2], details);
-        SemanticScreenReader.Announce("This is a scrollable page. By scrolling, you can find more text.");
     }
 }

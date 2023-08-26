@@ -16,7 +16,7 @@
             HorizontalOptions="Center"
             SemanticProperties.Description="History Museums Logo"/>
         <Button x:Name="holocaustMemorial" Text="Holocaust Memorial Centre"/>
-        <Button x:Name="NationalMuseum" Text="National Museum"/>
+        <Button x:Name="nationalMuseum" Text="National Museum"/>
         <Button x:Name="aquincumMuseum" Text="Aquincum Museum"/>
     </VerticalStackLayout>
 </ContentPage>
