@@ -18,10 +18,6 @@ jobs:
       with:
         version: 7.0.x
 
-    - name: Install
-      run: |
-        dotnet workload restore
-        dotnet restore
     - name: Install the Apple certificate and provisioning profile
       env:
         BUILD_CERTIFICATE_BASE64: ${{ secrets.APPLE_KEY }}
@@ -39,6 +35,11 @@ jobs:
         security list-keychain -d user -s $KEYCHAIN_PATH
         mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
         cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles
+
+    - name: Install
+      run: |
+        dotnet workload restore
+        dotnet restore
 
     - name: Build
       run: |
