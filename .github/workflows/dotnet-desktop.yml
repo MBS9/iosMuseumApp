@@ -16,12 +16,16 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    # Install the .NET Core workload
     - name: Install .NET Core
       uses: actions/setup-dotnet@v3
+      with:
+        version: 7.0.x
 
     - name: Install
       run: |
         dotnet workload restore
         dotnet restore
-        
+
+    - name: Build
+      run: |
+        dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64
