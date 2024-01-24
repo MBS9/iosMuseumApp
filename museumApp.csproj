@@ -62,12 +62,12 @@
 		<MauiImage Update="Resources\Images\science_logo_large.svg">
 		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
-		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="40,40" />
-		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="40,40" />
+		<MauiImage Update="Resources\Images\science_logo.svg" BaseSize="20,20" />
+		<MauiImage Update="Resources\Images\history_logo.svg" BaseSize="20,20" />
 		<MauiImage Update="Resources\Images\visual_arts_logo_large.svg">
 		  <BaseSize>300,300</BaseSize>
 		</MauiImage>
-		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="40,40" />
+		<MauiImage Update="Resources\Images\visual_arts_logo.svg" BaseSize="20,20" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
