@@ -55,7 +55,7 @@ jobs:
 
     - name: Build
       run: |
-        dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64 --self-contained
+        dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64 --self-contained -p:ArchiveOnBuild=true
 
     - uses: actions/upload-artifact@v3
       with:
