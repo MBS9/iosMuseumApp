@@ -10,13 +10,13 @@ public partial class Museum : ContentPage
         LoadAsset();
 	}
 
-    private void moreDetailsClicked(object sender, EventArgs e)
+    private void MoreDetailsClicked(object sender, EventArgs e)
     {
 		expandButton.IsVisible	= false;
 		details.IsVisible = true;
     }
 
-    private static void outputFromMd(string md, VerticalStackLayout viewParent)
+    private static void OutputFromMd(string md, VerticalStackLayout viewParent)
     {
         foreach (var paragraph in md.Split("\n\n")) {
             Element element;
@@ -55,6 +55,8 @@ public partial class Museum : ContentPage
                     break;
             }
             viewParent.Add((IView)element);
+            // Add a line break
+            viewParent.Add(new Label { Text = "", FontSize = DEFAULT_TEXT_SIZE });
         }
     }
 
@@ -70,7 +72,7 @@ public partial class Museum : ContentPage
         var splitList = contents.Split("---");
         h1.Text = splitList[0];
         Title = splitList[0];
-        outputFromMd(splitList[1], main);
-        outputFromMd(splitList[2], details);
+        OutputFromMd(splitList[1], main);
+        OutputFromMd(splitList[2], details);
     }
 }

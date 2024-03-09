@@ -30,7 +30,7 @@
             <Button
                 Text="Expand"
                 x:Name="expandButton"
-                Clicked="moreDetailsClicked"/>
+                Clicked="MoreDetailsClicked"/>
             <VerticalStackLayout x:Name="details" IsVisible="false">
             </VerticalStackLayout>
         </VerticalStackLayout>
