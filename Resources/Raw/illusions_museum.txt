@@ -1,6 +1,8 @@
 Museum of Illusions
 ---
 
+? https://illuziokmuzeuma.hu/en/ ? Official Website
+
 #Description of the Museum
 
 Location and accessibility:
@@ -31,13 +33,7 @@ This exhibit looks like a drawing with a corridor of a museum on it. However, wh
 
 ##What are the ticket prices?
 
-Adult: 4900HUF
-Student: 3400HUF 
-Family (2 adults 2 kids): 14500HUF 
-Family (2 adults 1 kid): 11300HUF
-Disabled people and their caretaker: 3400HUF each 
-Under 5: free 
-Tour guide:8000HUF
+?https://illuziokmuzeuma.hu/en/buy-tickets/? Official Ticket Prices
 
 ##Is parking available?  
 

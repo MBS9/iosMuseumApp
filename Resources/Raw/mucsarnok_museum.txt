@@ -1,6 +1,8 @@
 Mucsarnok Museum
 ---
 
+?https://www.mucsarnok.hu/index1.php? Official website
+
 #Description of the Museum
 
 The Mucsarnok museum is a Modern art museum open from 10am every day (though times may vary on Bank Holidays. You will find beautiful Modern art from every era and epoch here. It is located next to the Heroes Square.
@@ -17,9 +19,7 @@ It has 6 different exhibits; it is organised by the themes and by the artist. Th
 
 ##What are the ticket prices?
 
-Normal tickets: 2600 Huf
-Student tickets until 26: 1200 Huf
-In groups of 10: 1900 Huf
+?https://mucsarnok.hu/english/tickets.php? Ticket prices on the offical website
 
 ##Is parking available? 
 

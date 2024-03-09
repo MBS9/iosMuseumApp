@@ -1,5 +1,8 @@
 The Ludwig Museum
 ---
+
+?https://www.ludwigmuseum.hu/en? Official Website
+
 #Description of the Museum
 
 The Ludwig Museum is an art museum and is home to the largest American pop art outside of the United States of America. It is located near Rákóczi bridge on Komor Marcell Street, 1. There are many Ludwig Museums around the world (for example in Austria, Cuba, and Germany). The one in Budapest was opened in 1989, and then was moved to its current location in 2005. It was named after a German couple called Peter and Irene Ludwig, who were art collectors. Peter and Irene Ludwig are still considered Germany’s most important collector couple. They dedicated all their free time to the arts and by the 1960s, they had one of the most remarkable contemporary art collections in Europe. It is an important museum to visit because it displays a wide range of artworks by many different artists (including Pablo Picasso). People should visit it if they would like to know more about artists who are not so famous, and learn about their techniques and their ways of creating art. 
@@ -15,10 +18,7 @@ Another exhibition found in the Ludwig Museum is the “Time Machine”. It was 
 
 ##What are the ticket prices?
 
-- Combined ticket valid for all current exhibitions 
-- Full price: HUF 2 400 per person  
-- Group discount ticket for groups of more than 10 people: HUF 2 100 per person 
-- Group discount ticket for groups of students or senior citizens of more than 10 people: 1 150 HUF per person
+?https://www.ludwigmuseum.hu/en/online-tickets? Oficial Price List
 
 ##Is parking available?
 

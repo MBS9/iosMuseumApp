@@ -1,5 +1,8 @@
 Holocaust Memorial Centre
 ---
+
+?https://hdke.hu/en: Official Website
+
 #Description of the Museum 
 
 The museum is about the tragedy of the Holocaust and how it affected Hungarians at the time, and about Hungarian history. The Holocaust Memorial Centre is located in the IX district in Budapest, and memorialises the six million people whose lives were taken during the Holocaust. But it mainly focused on the 600,000 Hungarian Jewish victims. The museum was built around a synagogue which was constructed in 1924, and the museum opened in 2004. It is definitely worth visiting because it gives the context on why and how the Holocaust impacted Hungary. It's a good place to explore as it paints a very realistic and accurate picture to base any future knowledge of the Holocaust on. It would be especially beneficial for students of history to visit.
@@ -11,13 +14,9 @@ The exhibition is not organised chronologically, but rather by themes. The museu
 
 #Key Information 
 
-What are the ticket prices?
-- Adults: HUF 3600
-- Discount (student/senior) HUF 1600
-- Adult groups HUF 2550 / person
-- Student/senior groups HUF 800 / person
-- Guided tour in Hungarian: HUF 6900 / group
-- Guided tour in English/German/Italian/Russian: HUF 9400 / group
+##What are the ticket prices?
+
+?https://hdke.hu/en/about-us/visitors/tickets/: We direct you to the offical website for the most accurate information.
 
 ##Is parking available?
 

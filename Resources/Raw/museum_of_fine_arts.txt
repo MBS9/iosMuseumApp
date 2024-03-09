@@ -1,6 +1,8 @@
 ﻿Museum Of Fine Arts
 ---
 
+?https://www.mfab.hu/? Offical Website
+
 #Description of the Museum 
 
 The Museum of Fine Arts is located on Hősök tere (Heroes’ Square) in the city center/on the Pest side. It was opened in 190, with hundreds of artworks. The two main architects who designed the museum are Albert Schickedanz and Fülöp Herzog.  The museum has a great number of artworks from different eras and countries, and not to mention, it is the most prominent museum in Hungary. 
@@ -31,7 +33,7 @@ Baroque started at the beginning of the 17th century. Many of the artworks were 
 
 ##What are the ticket prices?
 
-Full price 4,200 HUF for the permanent exhibition, 50% reduction for visitor aged 6-26, or 62-70, or adults accompanying 2 or more underaged family members
+?https://www.mfab.hu/tickets/? Ticket prices on the offical website
 
 ##Is parking available?
 

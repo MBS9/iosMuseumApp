@@ -46,6 +46,10 @@ public partial class Museum : ContentPage
                     (element as VerticalStackLayout).Add(child);
                     (element as VerticalStackLayout).Add(new Label {Text= imageStrings[1], FontSize= DEFAULT_TEXT_SIZE });
                     break;
+                case '?':
+                    string[] strings = content.TrimStart('?').Split('?');
+                    element = new Hyperlink { Url = strings[0], Text = strings[1].Trim(), FontSize = DEFAULT_TEXT_SIZE };
+                    break;
                 default:
                     element = new Label { Text = content, FontSize=DEFAULT_TEXT_SIZE };
                     break;

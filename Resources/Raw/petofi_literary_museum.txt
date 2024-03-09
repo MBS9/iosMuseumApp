@@ -1,6 +1,8 @@
 ﻿Literary Museum
 ---
 
+?https://mnm.hu/en/entrance-ticket? Offical Website
+
 #Description of the Museum
 
 The Petofi Literary Museum lies in the city centre. The museum can be found at Karolyi utca 16., Budapest. The Petofi Literary Museum was established in 1954. At first glance, you might assume this is more of a library than a museum, and in that you would be wrong. The variety of interactive activities were surprisingly informative.
@@ -20,7 +22,7 @@ The exhibits here are punctuated by many important objects, such as portraits an
 
 ##What are the ticket prices?
 
-Different prices adult: 1600 student: 800-1000 
+?https://pim.hu/en/node/4006727? Ticket prices on the offical website
 
 ##Is parking available?  
 

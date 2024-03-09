@@ -1,6 +1,8 @@
 National Museum
 ---
 
+?https://mnm.hu/en? Offical Website
+
 #Description of the Museum
 
 Nemzeti Múzeum
@@ -27,8 +29,7 @@ The exhibits here are punctuated by many important objects, such as portraits an
 
 ##What are the ticket prices?
 
-Full price ticket: 2900HUF
-Youth ticket for group: 1100HUF
+?https://mnm.hu/en/entrance-ticket? Offical Prices on the website
 
 ##Is parking available?  
 

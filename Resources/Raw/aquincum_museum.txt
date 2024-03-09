@@ -1,6 +1,8 @@
 ﻿Aquincum Museum
 ---
 
+?http://www.aquincum.hu/en/ ? Visit the official website of the museum for more information.
+
 #Description of the museum
 
 The Aquincum Museum is very informative. It is great to see the authentic artifacts. It was made beautifully by the Romans, and some of the items were even worn. The museum also has interesting gold coins which can be found on the top floor of the museum. The museum in District 3 and can easily be reached on the H5 from Budapest. It has been open since 1894 and every year welcomes thousands of visitors through its gates. If you want to learn about Hungary, why not start with what it was like almost 2,000 years ago?
@@ -15,12 +17,7 @@ The Roman Empire was one of the greatest in history. During this time, Hungary w
 
 ##What are the ticket prices?
 
-2,200 HUF/adult, 
-1,300 Human/person, student, youth, pensioner;
-
-For groups over 10 people:-
-1,100 HUF/adult
-900 HUF/person, student, youth, pensioner group
+?http://www.aquincum.hu/en/latogatoknak/hasznos-informaciok/jegyarak/ ? We direct you to the Museum's website for the latest infromation.
 
 ##Is parking available? 
 
