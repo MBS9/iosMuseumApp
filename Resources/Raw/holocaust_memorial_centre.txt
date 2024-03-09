@@ -1,7 +1,7 @@
 Holocaust Memorial Centre
 ---
 
-?https://hdke.hu/en: Official Website
+?https://hdke.hu/en?Official Website
 
 #Description of the Museum 
 
@@ -16,7 +16,7 @@ The exhibition is not organised chronologically, but rather by themes. The museu
 
 ##What are the ticket prices?
 
-?https://hdke.hu/en/about-us/visitors/tickets/: We direct you to the offical website for the most accurate information.
+?https://hdke.hu/en/about-us/visitors/tickets/? We direct you to the offical website for the most accurate information.
 
 ##Is parking available?
 
