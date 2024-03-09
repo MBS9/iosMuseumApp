@@ -48,7 +48,7 @@ public partial class Museum : ContentPage
                     break;
                 case '?':
                     string[] strings = content.TrimStart('?').Split('?');
-                    element = new Hyperlink { Url = strings[0], Text = strings[1].Trim(), FontSize = DEFAULT_TEXT_SIZE };
+                    element = new Hyperlink { Url = strings[0], Text = "[Tap to Open Link]" + strings[1].Trim(), FontSize = DEFAULT_TEXT_SIZE };
                     break;
                 default:
                     element = new Label { Text = content, FontSize=DEFAULT_TEXT_SIZE };
