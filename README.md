@@ -65,9 +65,3 @@ dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64
 ```
 
 If publishing to the store: `-p:CodesignKey="{fill this out}" -p:CodesignProvision="{fill this out}"`
-
-**Note:** to publish to the App Store, you need to purchase developer program from Apple.
-
-Read more about this in the [documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-cli?view=net-maui-7.0).
-
-To create a `CodesignKey` and a `CodesignProvision` [read this documentation](https://learn.microsoft.com/en-us/dotnet/maui/ios/deployment/publish-app-store?view=net-maui-7.0&tabs=vs). You can also use that guide to publish to the App Store.
