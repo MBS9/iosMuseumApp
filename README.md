@@ -12,6 +12,10 @@ There is also an [Android only version of this application](https://github.com/M
 
 This app was made with [.NET MAUI](https://dotnet.microsoft.com/en-us/apps/maui), and hence it can be run on iOS, Android, Windows, and Mac OS. However, it was optimized for mobile, and hence it isn't great on desktop.
 
+## Reporting issues
+
+Please use the `Issues` tab on this page to do this.
+
 ## Setup and run locally
 
 1. If running a Mac, please install [XCode](https://developer.apple.com/xcode/).
