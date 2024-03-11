@@ -57,6 +57,14 @@ jobs:
       run: |
         dotnet publish -f:net7.0-ios -c:Release -p:RuntimeIdentifier=ios-arm64 --self-contained -p:ArchiveOnBuild=true
 
+    - name: Upload to Apple
+      env:
+        APPLE_ACCOUNT_PWD: ${{ secrets.APPLE_ACCOUNT_PWD }}
+        APP_STORE_USERNAME: ${{ secrets.APP_STORE_USERNAME }}
+      run: |
+        xcrun altool --validate-app --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
+        xcrun altool --upload-app --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
+
     - uses: actions/upload-artifact@v4
       with:
         name: build
