@@ -62,8 +62,8 @@ jobs:
         APPLE_ACCOUNT_PWD: ${{ secrets.APPLE_ACCOUNT_PWD }}
         APP_STORE_USERNAME: ${{ secrets.APP_STORE_USERNAME }}
       run: |
-        xcrun altool --validate-app --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
-        xcrun altool --upload-app --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
+        xcrun altool --validate-app --type ios --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
+        xcrun altool --upload-app --type ios --file "bin/Release/net7.0-ios/ios-arm64/publish/museumApp.ipa" --username "$APP_STORE_USERNAME" --password @env:"APPLE_ACCOUNT_PWD"
 
     - uses: actions/upload-artifact@v4
       with:
